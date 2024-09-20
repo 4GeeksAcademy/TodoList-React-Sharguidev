@@ -19,12 +19,23 @@ input[type="text"]{
   margin-top: 10px;
   width: 80%;
   border: none;
+  background-color: #ecf39e;
   color: #3a5a40;
   font-size: 20px;
   border-radius: 5px;
   padding-top: 10px;
 }
 
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+
 .colorFont{
   color: #3a5a40;
+}
+
+span {
+  cursor: pointer;
 }
